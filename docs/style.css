@@ -202,6 +202,28 @@ a.btn {
     margin-bottom: 12px;
   }
 }
+@media (max-width: 400px) {
+  .container {
+    max-width: 97vw;
+    margin: 10px auto;
+    padding: 5vw 2vw 5vw 2vw;
+    border-radius: 18px;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 12px;
+  }
+  .btn, .btn-inner {
+    font-size: 1em;
+    padding: 12px 0 10px 0;
+    border-radius: 16px;
+  }
+  .desc {
+    font-size: 1em;
+    margin-bottom: 14px;
+  }
+}
 #hearts-bg {
   position: fixed;
   left: 0; top: 0;
